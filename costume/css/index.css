@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 订阅开始 */
+.subscriptionBox{
+	width:500px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	margin-top:100px;
+	margin-bottom:200px;
+}
+.subscriptionTitle{
+	text-align:center;
+	margin-bottom:30px;
+	font-size:22px;
+	line-height:24px;
+	font-weight:bold;
+}
+.email{
+	line-height:20px;
+	font-size:15px;
+	border-style:none;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:180px;
+	position:absolute;
+	left:50%;margin-left:-75px;
+}
+/* 订阅结束 */
+.my_search{
+	line-height:20px;
+	font-size:15px;
+	border-style:none;
+	margin-top:-20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:180px;
+	position:absolute;
+	left:50%;margin-left:-75px;
+}
+/* 备案号开始 */
+#itc{
+	position:fixed;
+	bottom:25px;
+	left:87px;
+	font-size:11px;
+	z-index:3;
+	color:#fff;
+}
+#itc-license{
+	float:left;
+	position:relative;
+	width:70px;
+	height:15px;
+	line-height:15px;
+	margin-right:20px;
+}
+#itc ul>li .icon-sprite{
+	width:16px;height:15px;vertical-align:top;
+}
+.icon-itc-license{
+	background-image:url(../img/iconBg.png);
+	background-position:-194px -64px;
+	width:15px;
+	height:15px;
+}
+#itc-register{
+	float:left;
+	position:relative;
+	width:197px;
+	height:15px;
+	line-height:15px;
+	margin-right:20px;
+}
+.icon-itc-register{
+	background-image:url(../img/iconBg.png);
+	background-position:-194px -109px;
+	width:15px;
+	height:15px;
+}
+#itc-icp{
+	float:left;
+	position:relative;
+	width:130px;
+	height:15px;
+	line-height:15px;
+}
+/* 备案号结束 */

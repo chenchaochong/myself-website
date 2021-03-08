@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.textInfo{
+	width:50%;
+	position:absolute;
+	left:25%;
+}
+.infoTitle{
+	font-size:18px;
+	letter-spacing:0.3px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:20px;
+}
+.infoPrice{
+	font-size:14px;
+	letter-spacing:0.2px;
+	font-weight:bold;
+	margin-bottom:12px;
+	line-height:16px;
+	padding-bottom:4px;
+}
+.infoColor{
+	font-size:12px;
+	letter-spacing:0.2px;
+	line-height:16px;
+	margin-bottom:12px;
+}
+.infoElement{
+	font-size:12px;
+	letter-spacing:0.2px;
+	line-height:16px;
+	margin-bottom:12px;
+}
+.infoModel{
+	font-size:12px;
+	letter-spacing:0.2px;
+	line-height:16px;
+	margin-bottom:30px;
+}
+.infoType{
+	padding-left:8px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	height:30px;
+}
+.infoTypeAdvice{
+	color:#000;
+	font-size:12px;
+	letter-spacing:0.2px;
+	position:absolute;
+	right:0;
+}
+.infoSubmit{
+	color:#fff;
+	font-size:16px;
+	line-hight:20px;
+	position:absolute;
+	left:50%;
+	top:10px;
+	margin-left:-18px;
+}
+.infoStyle{
+	font-size:12px;
+	letter-spacing:0.2px;
+	line-height:16px;
+	margin-top:20px;
+}
