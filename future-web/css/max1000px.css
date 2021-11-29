@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@media (max-width:1000px){
+	/* 服务页面开始 */
+	.fuwu{width: 100%;height: 25%;position: relative;float: left;}
+	.tubiaoll,.tubiao_title{display:none;}
+	.tubiao_text1{color: #fff;position: absolute;left:0%;top:20%!important;width: 10px;line-height: 12px;font-size: 10px;display: none;}
+	.tubiao_text2{color: #fff;position: absolute;right:0%;top:20%!important;width: 10px;line-height: 12px;font-size: 10px;display: none;}
+	.tubiaoll{display: none!important;}
+	.tubiaorl{display:none!important;}
+	/* 服务页面结束 */
+	/*核心团队开始*/
+	.team_box0,.team_box1,.team_box3,.team_box4,.team_box5,.team_box6{display:none;}
+	.team_text_box{width:320px;height:50px;position:absolute;left:50%;bottom:1%!important;margin-left:-157px;}
+	.teamFirImg{position: absolute; left: 50%; top: 42%; margin-left: -175px; margin-top: -225px!important;}
+	.team_box{width:1000px;height:450px;position:absolute;left:50%;top:40%;margin-left:-500px;margin-top:-250px;}
+	.team_box2{width:300px;height:350px;position:absolute;left:50%;top:150px!important;margin-left:-150px;}
+	/*核心团队结束*/
+	/* 关于我们开始 */
+	.gsjjC{position:absolute;left: 6%;top: 10%;z-index: 4;}
+	.gsjjC img{width:80%;}
+	.gsjj_info1,.gsjj_info2,.gsjj_info3,.gsjj_info4{font-size: 8px;color: #fff;text-indent: 36px;z-index:5;}
+	.gsjj_left{width: 50%;height: 100%;float: left;position: relative;display:none;}
+	.gsjj_right{width: 100%;height: 100%;background:url(../img/gsjl5.jpg);float: right;position: relative;}
+	.gsjl1{display:none;}
+	.gsjj_title div:nth-child(2){font-size:16px;color:#fff;margin-top:110px;}
+	.gsjj_title div:nth-child(3){font-size:12px;color:#fff;margin-top:6px;}
+	.gsjj_text{position: absolute;top:20%;left: 10%;z-index:6;}
+	/* 关于我们结束 */
+	/* 联系我们开始 */
+	.contb{width:300px;height:500px;position:absolute;top:25%;left:50%;overflow:hidden;margin-left:-100px;margin-top:-250px;}
+	.contb1{width:300px;height:500px;float:left;}
+	.contb2{width:300px;height:500px;float:left;}
+	.contb2 div{color:#ffe;}
+	.contb2 div:nth-child(1){font-size:40px;}
+	.contb2 div:nth-child(2){font-size:26px;}
+	/* 联系我们结束 */
+	/* 手机端的动态开始 */
+	.mDyHighView {width: 300px;height: 440px;position: absolute;left: 50%;top: 50%;margin-top: -210px;margin-left: -150px;overflow: hidden;}
+	.mDyBigBox {width: 1500px;height: 440px;position: absolute;left: 0px;top: 0;}
+	.mDyView {width: 20%;height: 400px;float: left;}
+	/* 上面盒子 */
+	.mViewTitle {font-size: 11px;color: #1a6185 !important;position: absolute;top: 12px;left: 10%;}
+	.mViewImg {width: 100%;height: 30%;position: absolute;top: 10%;}
+	.mViewTextTitle {width: 100%;height: 18px;text-align: center;font-size: 18px;position: absolute;top: 50%;}
+	.mViewTextDate {width: 100%;height: 8px;color: #1a6185;text-align: center;font-size: 8px;position: absolute;top: 57%;}
+	.mViewMainText {width: 100%;height: 20%;text-align: center;font-size: 12px;position: absolute;top: 63%;letter-spacing: 2px;}
+	.mViewTextMore {width: 66px;height: 8px;color: #1a6185;font-size: 8px;position: absolute;top: 85%;left: 50%;margin-left: -33px;}
+	.mViewTextMore div:nth-child(1) {float: left;}
+	.mViewTextMore div:nth-child(2) {float: right;}
+	.mDyCtrl {position: absolute;left: 50%;margin-left: -33px;bottom: 10px;}
+	.mDyCtrl li {width: 12px;height: 12px;border-radius: 10px;background-color: #f0f0f0;margin-right: 6px;float: left;cursor:pointer;}
+	.mDyCtrl .mDyCurrent {width: 24px;}
+	/* 手机端的动态结束 */
+	/* 尾部开始 */
+	.footBottomBox{width: 100%;height: 100px;position: relative;}
+	.footBottomInfo{width: 800px;height: 100px;position: absolute;left: 50%;top:50%;margin-left: -400px;margin-top: -50px;}
+	.footBottomInfo p{color:#c8d5db;opacity:0.4;text-align: center;font-size:12px;}
+	/* 尾部结束 */
+	/* 手机端案例开始 */
+	.mCaseView{width:100%;height:80%;position: absolute; left: 0; top: 20%;overflow:hidden;}
+	.mCaseBox{width:20%;float:left;height:100%;}
+	.mCaseTitle{width:330px;height:150px;position:absolute;left:50%;margin-left:-165px;}
+	.mCaseTitleIcon{width:70px;height:70px;position:absolute;left:50%;margin-left:-35px;}
+	.mCaseTitleIcon img{width:70px;}
+	.mCaseTitleText{width:100px;height:17px;font-size:17px;color:#fff;position:absolute;left:50%;margin-left:-50px;margin-top:80px;line-height:17px;letter-spacing:2px;}
+	.mCaseBody{width:250px;height:30%;position:absolute;left:30%;top:20%;}
+	.mCaseBodyF1,.mCaseBodyF2,.mCaseBodyF3{color:#fff;font-size:20px;margin-bottom:10px;}
+	.mCaseBodyF4{margin-top:10px;width:150px;position:absolute;left:33%;margin-left:-75px;}
+	.mCaseFoot{width:100%;height:55%;position:absolute;top:55%;}
+	.mCaseFootMore{wigth:50px;height:50px;position:absolute;left:50%;margin-left:-25px;top:0;opacity:0.5;}
+	.mCaseFootMore img{width:50px!important;}
+	/* 手机端案例结束 */
+}

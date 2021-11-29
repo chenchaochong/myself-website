@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>酒仙网后台</title>
+<link href="../public/bs/css/bootstrap.css" rel="stylesheet">
+<script src="../public/js/jquery-1.11.3.min.js"></script>
+<script src="../public/bs/js/bootstrap.js"></script>
+<script src="../public/js/holder.js"></script>
+<style>
+	.ok{margin:20px auto 0 auto;}
+	.login{width: 500px;height: 300px;background: #ccc;position: absolute;top:50%;left: 50%;margin-top: -150px;margin-left: -250px;}
+	.form-group:first-child{margin-top:5px;}
+	</style>
+</head>
+
+<body>
+<div class="panel panel-primary login">
+	<div class="panel-heading">
+		<div class="panel-title">
+		<h1 style="text-align:center">酒仙网</h1>
+		</div>
+  	</div>
+  	<div class="panel-body">
+		<form action="index.html" method="post">
+			<div class="form-group">
+				<div class="input-group input-group-lg">
+				  <span class="input-group-addon">
+				  	<span class="glyphicon glyphicon-user"></span>
+				  </span>
+				  <input type="text" class="form-control" placeholder="用户名">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group input-group-lg">
+				  <span class="input-group-addon">
+				  	<span class="glyphicon glyphicon-lock"></span>
+				  </span>
+				  <input type="password" class="form-control" placeholder="密码">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group input-group-lg ok">
+				  <input type="submit" class="btn btn-primary btn-lg" value="登录">
+				</div>
+			</div>
+		</form>
+  	</div>
+</div>
+</body>
+</html>
