@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/basic.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      @media screen and (max-width: 768px) {
+        .bottom {
+          height: 4rem;
+          background: #dcdcdc;
+          font-size: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+        }
+        .company-beian {
+          text-decoration: none;
+        }
+      }
+      @media screen and (min-width: 769px) {
+        .bottom {
+          height: 8rem;
+          background: #dcdcdc;
+          font-size: 1.8rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+        }
+        .company-beian {
+          margin-top: 1rem;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bottom">
+      <div
+        class="company-name visible-sm-block visible-md-block visible-lg-block"
+      >
+        &copy奇天烈（上海）文化创意有限公司
+      </div>
+      <a href="https://beian.miit.gov.cn/" class="company-beian"
+        >沪ICP备20018203号-2</a
+      >
+    </div>
+  </body>
+</html>

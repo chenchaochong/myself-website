@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>导航</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"
+    />
+    <meta name="renderer" content="webkit" />
+    <link href="img/Logo_blue.png" rel="shortcut icon" />
+    <link href="css/basic.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <style>
+      li {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+   <!--导航开始-->
+    <nav class="navbar nav-default" style="margin-bottom: 0;">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" style="background: #fff"></span>
+            <span class="icon-bar" style="background: #fff"></span>
+            <span class="icon-bar" style="background: #fff"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="color: #fff">
+            <div>奇天烈（上海）文化创意有限公司</div>
+            <div style="font-size: 1.3rem">
+              Qitianlie (Shanghai) cultural creativity Co., Ltd
+            </div>
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a
+                href="index.html"
+                style="color: #fff; margin-top: 1.5rem; font-size: 1.4rem"
+                >首页</a
+              >
+            </li>
+            <li>
+              <a
+                id="about"
+                style="color: #fff; margin-top: 1.5rem; font-size: 1.4rem"
+                >公司介绍</a
+              >
+            </li>
+            <li>
+              <a
+                id="cooperationBrand"
+                style="color: #fff; margin-top: 1.5rem; font-size: 1.4rem"
+                >合作品牌</a
+              >
+            </li>
+            <li>
+              <a
+                id="permitProduct"
+                style="color: #fff; margin-top: 1.5rem; font-size: 1.4rem"
+                >授权产品</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!--导航结束-->
+  </body>
+  <script type="text/javascript">
+    $(document).on("click", ".navbar-collapse.in", function (e) {
+      if ($(e.target).is("a")) {
+        $(this).collapse("hide");
+      }
+    });
+    $(".navbar-toggle").click(function(){
+      $("#bs-example-navbar-collapse-1").toggle();
+    })
+    const dw = $(window).width();
+    if (dw > 768) {
+      const scrollH = (dw * 1080) / 1920;
+      $("#about").click(function () {
+        $(window).scrollTop(0);
+      });
+      $("#cooperationBrand").click(function () {
+        $(window).scrollTop(scrollH);
+      });
+      $("#permitProduct").click(function () {
+        $(window).scrollTop(scrollH * 2);
+      });
+    } else {
+      const scrollH = (dw * 650) / 768;
+      $("#about").click(function () {
+        $(window).scrollTop(scrollH * 2);
+      });
+      $("#productIntroduce").click(function () {
+        $(window).scrollTop(scrollH * 4);
+      });
+      $("#cooperationBrand").click(function () {
+        $(window).scrollTop(scrollH * 5);
+      });
+      $("#permitProduct").click(function () {
+        $(window).scrollTop(scrollH * 6);
+      });
+    }
+    $(".navbar-nav li").mouseenter(function () {
+      $(this).css({
+        background: "rgba(255,255,255,0.2)",
+      });
+    });
+    $(".navbar-nav li").mouseleave(function () {
+      $(this).css({
+        background: "none",
+      });
+    });
+  </script>
+</html>
