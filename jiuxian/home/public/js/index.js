@@ -12,14 +12,14 @@ $(function(){
 	});	
 	//$('.right').eq(0).show();
 	//左侧导航	
-	$('.div3 li').mouseenter(function(){
+	$('.vertical-nav-ul li').mouseenter(function(){
 		$(this).css({'background':'#fff'});
 		$(this).find('span').css({'color':'#b61d1d'});
-		$('.div3 li').not($(this)).css({'background':'#b61d1d'});
+		$('.vertical-nav-ul li').not($(this)).css({'background':'#b61d1d'});
 		$(this).find('.right').show();
 		$('.right').not($(this).find('.right')).hide();
 	});
-	$('.div3 li').mouseleave(function(){
+	$('.vertical-nav-ul li').mouseleave(function(){
 		$(this).find('.right').hide();
 		$(this).find('span').css({'color':'#fff'});
 		$(this).css({'background':'#b61d1d'});
